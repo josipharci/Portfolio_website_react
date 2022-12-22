@@ -13,7 +13,8 @@ function Navbar() {
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a class="nav-link active" id="link-nav" aria-current="page" href="#">Home</a>
-              <a class="nav-link" id="link-nav" href="#">Features</a>
+              <a class="nav-link" id="link-nav" href="#">About me</a>
+              <a class="nav-link" id="link-nav" href="#">Projects</a>
             </div>
           </div>
         </div>
