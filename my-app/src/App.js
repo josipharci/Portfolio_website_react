@@ -1,6 +1,6 @@
 
 import Navbar from './Navbar';
-import Carousel from './CarouselItem';
+import CarouselItem  from './CarouselItem';
 import './App.css';
 
 
@@ -9,7 +9,7 @@ function App() {
     
     <div className="App">
       <Navbar />
-      <Carousel/>
+      <CarouselItem/>
    
     </div>
   );

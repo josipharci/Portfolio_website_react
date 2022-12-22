@@ -21,7 +21,7 @@ const data = [
    } 
 ]
 
-function HomeCarousel() {
+function CarouselItem() {
   const [index, setIndex] = useState(0);
   const handleSelect = (selectedIndex, e) => {
     setIndex(selectedIndex);
@@ -49,3 +49,4 @@ function HomeCarousel() {
   );
 }
 
+export default CarouselItem;
