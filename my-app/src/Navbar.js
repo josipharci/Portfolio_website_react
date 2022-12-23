@@ -1,25 +1,36 @@
 import React from 'react';
 import logo from './logo.png';
-import './App.css';
+import closeIcon from './images/icon-menu-close.svg';
+import toggleIcon from './images/icon-menu.svg';
+import './Navbar.css';
+
+
+
 
 function Navbar() {
     return (
-        <nav class="navbar navbar-expand-lg bg-info">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img class="LogoIMG" src={logo} alt="Logo"/></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" id="link-nav" aria-current="page" href="#">Home</a>
-              <a class="nav-link" id="link-nav" href="#">About me</a>
-              <a class="nav-link" id="link-nav" href="#">Projects</a>
-            </div>
-          </div>
-        </div>
-       </nav>
+      <header>
+      <div class="logo">
+      <img src={logo} alt="logo"/>
+    </div>
+    <nav class="nav" id="nav-menu">
+      
+      <i class="header_close" id="close-menu"><img src="" alt="icon"/></i>
+
+      <ul class="nav_list">
+         <li class="nav_item"><a class="nav_link" href="#">Home</a></li>
+         <li class="nav_item"><a class="nav_link" href="#">New</a></li>
+         <li class="nav_item"><a class="nav_link" href="#">Popular</a></li>
+         <li class="nav_item"><a class="nav_link" href="#">Trending</a></li>
+         <li class="nav_item"><a class="nav_link" href="#">Categories</a></li>
+      </ul>
+    </nav>
+  
+   <i class="header_toggle" id="toggle-menu"><img src="" alt="icon"/></i>
+      
+   </header>
     )
 }
 
 export default Navbar;
+
