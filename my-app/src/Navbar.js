@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.png';
 import closeIcon from './images/icon-menu-close.svg';
 import toggleIcon from './images/icon-menu.svg';
+import navFunction from './navFunction'
 import './Navbar.css';
 
 
@@ -15,7 +16,7 @@ function Navbar() {
     </div>
     <nav class="nav" id="nav-menu">
       
-      <i class="header_close" id="close-menu"><img src="" alt="icon"/></i>
+      <i class="header_close" id="close-menu"><img src={closeIcon} alt="icon"/></i>
 
       <ul class="nav_list">
          <li class="nav_item"><a class="nav_link" href="#">Home</a></li>
@@ -26,8 +27,7 @@ function Navbar() {
       </ul>
     </nav>
   
-   <i class="header_toggle" id="toggle-menu"><img src="" alt="icon"/></i>
-      
+   <i class="header_toggle" id="toggle-menu"><img src={toggleIcon} alt="icon"/></i>
    </header>
     )
 }

@@ -1,8 +1,8 @@
 
 .carousel{
-    margin-top: 20px;
     height: 550px;
     position: relative;
+    z-index: -99;
     background-color: #000;
 }
 
