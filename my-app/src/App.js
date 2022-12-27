@@ -1,7 +1,7 @@
 
 import Navbar from './Navbar';
 import CarouselItem  from './CarouselItem';
-import './App.css';
+import './css/App.css';
 
 
 function App() {

@@ -1,9 +1,9 @@
 import React from 'react';
-import logo from './logo.png';
+import logo from './images/logo.png';
 import closeIcon from './images/icon-menu-close.svg';
 import toggleIcon from './images/icon-menu.svg';
 import navFunction from './navFunction'
-import './Navbar.css';
+import './css/Navbar.css';
 
 
 
