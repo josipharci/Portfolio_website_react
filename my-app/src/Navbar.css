@@ -42,7 +42,7 @@ a{
     display: none;
  }
  
- @media screen and (max-width: 768px){
+ @media screen and (max-width: 1447px){
     header{
        height: 50px;
        justify-content: space-between;
