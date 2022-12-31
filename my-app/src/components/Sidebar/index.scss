@@ -1,5 +1,5 @@
 .nav-bar{
-    background-color: #fff;
+    background-color: #04206d;
     width: 50px;
     height: 100vh;
     position: absolute;
@@ -7,10 +7,15 @@
     z-index: 3;
     min-height: 500px;
     .Logo{
-        img{
+        .Logo-img{
           width: 50px;
-          height: 50px;
+          height: 30px;
+          padding-top: 5px;
+        }
+        .Sub-logo{
+          height: 25px;
         }
     }
+
 }
 
