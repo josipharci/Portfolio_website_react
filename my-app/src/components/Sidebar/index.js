@@ -14,16 +14,16 @@ const Sidebar = () => (
             <img className='Sub-logo' src={LogoSublime} alt="JOSIP"/>
         </Link>
         <div className='Links_box'>
-        <NavLink className='Links' exact='true' activeclassname='active' to='/'>
+        <NavLink className='Links Home' exact='true' activeclassname='active' to='/'>
             <FontAwesomeIcon icon={faHome} color='#fff'/>
         </NavLink>
-        <NavLink className='Links' exact='true' activeclassname='active' to='/'>
+        <NavLink className='Links Project' exact='true' activeclassname='active' to='/'>
             <FontAwesomeIcon icon={faDiagramProject} color='#fff'/>
         </NavLink>
-        <NavLink className='Links' exact='true' activeclassname='active' to='/'>
+        <NavLink className='Links About' exact='true' activeclassname='active' to='/'>
             <FontAwesomeIcon icon={faUser} color='#fff'/>
         </NavLink>
-        <NavLink className='Links' exact='true' activeclassname='active' to='/'>
+        <NavLink className='Links Contact' exact='true' activeclassname='active' to='/'>
             <FontAwesomeIcon icon={faEnvelope} color='#fff'/>
         </NavLink>
         </div>
