@@ -14,35 +14,35 @@ const Sidebar = () => (
             <img className='Sub-logo' src={LogoSublime} alt="JOSIP"/>
         </Link>
         <div className='Links_box'>
-        <NavLink className='Links Home' exact='true' activeclassname='active' to='/'>
+        <NavLink className='Home' exact='true' activeclassname='active' to='/'>
             <FontAwesomeIcon icon={faHome} color='#fff'/>
         </NavLink>
-        <NavLink className='Links Project' exact='true' activeclassname='active' to='/'>
+        <NavLink className='Project' exact='true' activeclassname='active' to='/Project'>
             <FontAwesomeIcon icon={faDiagramProject} color='#fff'/>
         </NavLink>
-        <NavLink className='Links About' exact='true' activeclassname='active' to='/'>
+        <NavLink className='About' exact='true' activeclassname='active' to='/About'>
             <FontAwesomeIcon icon={faUser} color='#fff'/>
         </NavLink>
-        <NavLink className='Links Contact' exact='true' activeclassname='active' to='/'>
+        <NavLink className='Contact' exact='true' activeclassname='active' to='/Contact'>
             <FontAwesomeIcon icon={faEnvelope} color='#fff'/>
         </NavLink>
         </div>
         <div className='SLinks'>
-        <a className='S_link'
+        <a className='Linked'
            target="_blank"
            rel='noreferrer'
            href='https://www.linkedin.com/in/josip-harci-9063331b1/'
         >
             <FontAwesomeIcon icon={faLinkedin} color='#fff'/>
         </a>  
-        <a className='S_link Github_i'
+        <a className='Github'
            target="_blank"
            rel='noreferrer'
            href='https://github.com/josipharci'
         >
             <FontAwesomeIcon icon={faGithub} color='#fff'/>
         </a>
-        <a className='S_link' 
+        <a className='Facebook' 
            target="_blank"
            rel='noreferrer'
            href='https://www.facebook.com/harci99'
