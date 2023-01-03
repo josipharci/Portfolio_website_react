@@ -7,18 +7,20 @@
 .top-tags{
     bottom: auto;
     top:35px;
+    opacity: 0;
 }
 
 .tags{
     color: #fff;
-    opacity: 0.6;
     position: absolute;
     bottom: 0;
     left: 120px;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
+    opacity: 0;
 }
 
 .bottom-tag-html{
-    margin-left: -20px;
+    margin-left: 20px;
+    opacity: 0;
 }
