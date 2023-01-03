@@ -1,4 +1,5 @@
 import './index.scss';
+import Logo from '../../assets/images/logo-sub.png';
 
 
 const Home = () => {
@@ -10,7 +11,9 @@ const Home = () => {
           <a href="/About" className="Buttom">MORE...</a>
         </div>
         <div className="Content_right">
-          
+           <div className="Logo-box">
+             <img className='Logo-img'src={Logo} alt="LOGO"/>
+           </div>
         </div>
       </div>
     );
