@@ -1,6 +1,6 @@
 .nav-bar{
     background-color: #363535;
-    width: 50px;
+    width: 55px;
     height: 100vh;
     position: absolute;
     top: 0;
@@ -47,9 +47,9 @@ a {
   text-decoration: none;
 
     i{transition: all 0.2s ease-out;}
-
+    
     &:hover{
-      color: #fff;
+      color: #dee203;
 
     svg{
       opacity: 0;
@@ -104,20 +104,24 @@ a {
 
     a.Linked{
       &::after{
-        content: "Linked";
+        content: "IN";
+        top: 2px;
+        font-size: 14px;
       }
     }
 
     a.Github{
       &::after{
         content: "Github";
+        top: 2px;
       }
     }
 
     a.Facebook{
       &::after{
-        content: "Facebook";
-        font-size: 8px;
+        content: "FB";
+        font-size: 14px;
+        top: 2px;
       }
     }
 
@@ -126,3 +130,5 @@ a {
         content: "";
       }
     }
+
+   

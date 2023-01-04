@@ -1,0 +1,22 @@
+$font: Arial, Helvetica, sans-serif;
+
+
+.Content_left_about{
+    float: left;
+    display: block;
+    width: 50%;
+    height: 100%;
+    font-family: $font;
+    text-align: left;
+     .Heading{
+        font-size: 34px;
+        padding-left:15%;
+        padding-top: 15%;
+     }
+     .Text{
+        text-align: left;
+        font-size: 24px;
+        padding-left: 15%;
+        line-height: 30px;
+     }
+}
