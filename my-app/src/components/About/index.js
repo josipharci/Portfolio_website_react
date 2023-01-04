@@ -1,4 +1,5 @@
 import './index.scss';
+import Border from '../../assets/images/border.png'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faStar} from '@fortawesome/free-solid-svg-icons';
 
@@ -6,6 +7,7 @@ import {faStar} from '@fortawesome/free-solid-svg-icons';
 
 const About = () => {
     return(
+      <div className='Container_about'>
         <div className="Content_left_about">
             <h2 className="Heading">About me</h2>
             <p className="Text">
@@ -64,6 +66,10 @@ const About = () => {
                 </p>
             </div>
         </div>
+        <div className='Content_right_about'>
+                <img src={Border} alt="Border"/>
+        </div>
+    </div>
     );
 }
 
