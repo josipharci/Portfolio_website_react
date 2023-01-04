@@ -23,6 +23,41 @@ const About = () => {
                 <p>JavaScript
                    <span className='Star active_s'><FontAwesomeIcon icon={faStar}></FontAwesomeIcon></span>
                    <span className='Star active_s'><FontAwesomeIcon icon={faStar}></FontAwesomeIcon></span>
+                   <span className='Star '><FontAwesomeIcon icon={faStar}></FontAwesomeIcon></span>
+                   <span className='Star'><FontAwesomeIcon icon={faStar}></FontAwesomeIcon></span>
+                   <span className='Star'><FontAwesomeIcon icon={faStar}></FontAwesomeIcon></span>
+                </p>
+                <p>Php and SQL
+                   <span className='Star active_s'><FontAwesomeIcon icon={faStar}></FontAwesomeIcon></span>
+                   <span className='Star active_s'><FontAwesomeIcon icon={faStar}></FontAwesomeIcon></span>
+                   <span className='Star'><FontAwesomeIcon icon={faStar}></FontAwesomeIcon></span>
+                   <span className='Star'><FontAwesomeIcon icon={faStar}></FontAwesomeIcon></span>
+                   <span className='Star'><FontAwesomeIcon icon={faStar}></FontAwesomeIcon></span>
+                </p>
+                <p>SASS/LESS
+                   <span className='Star active_s'><FontAwesomeIcon icon={faStar}></FontAwesomeIcon></span>
+                   <span className='Star active_s'><FontAwesomeIcon icon={faStar}></FontAwesomeIcon></span>
+                   <span className='Star '><FontAwesomeIcon icon={faStar}></FontAwesomeIcon></span>
+                   <span className='Star'><FontAwesomeIcon icon={faStar}></FontAwesomeIcon></span>
+                   <span className='Star'><FontAwesomeIcon icon={faStar}></FontAwesomeIcon></span>
+                </p>
+                <p>CSS frameworks (Bootstrap,Foundation)
+                   <span className='Star active_s'><FontAwesomeIcon icon={faStar}></FontAwesomeIcon></span>
+                   <span className='Star active_s'><FontAwesomeIcon icon={faStar}></FontAwesomeIcon></span>
+                   <span className='Star active_s'><FontAwesomeIcon icon={faStar}></FontAwesomeIcon></span>
+                   <span className='Star'><FontAwesomeIcon icon={faStar}></FontAwesomeIcon></span>
+                   <span className='Star'><FontAwesomeIcon icon={faStar}></FontAwesomeIcon></span>
+                </p>
+                <p>JavaScript Libraries (React)
+                   <span className='Star active_s'><FontAwesomeIcon icon={faStar}></FontAwesomeIcon></span>
+                   <span className='Star active_s'><FontAwesomeIcon icon={faStar}></FontAwesomeIcon></span>
+                   <span className='Star'><FontAwesomeIcon icon={faStar}></FontAwesomeIcon></span>
+                   <span className='Star'><FontAwesomeIcon icon={faStar}></FontAwesomeIcon></span>
+                   <span className='Star'><FontAwesomeIcon icon={faStar}></FontAwesomeIcon></span>
+                </p>
+                <p>WordPress (CMS)
+                   <span className='Star active_s'><FontAwesomeIcon icon={faStar}></FontAwesomeIcon></span>
+                   <span className='Star active_s'><FontAwesomeIcon icon={faStar}></FontAwesomeIcon></span>
                    <span className='Star active_s'><FontAwesomeIcon icon={faStar}></FontAwesomeIcon></span>
                    <span className='Star'><FontAwesomeIcon icon={faStar}></FontAwesomeIcon></span>
                    <span className='Star'><FontAwesomeIcon icon={faStar}></FontAwesomeIcon></span>
