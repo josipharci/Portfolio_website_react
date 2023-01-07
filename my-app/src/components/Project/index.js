@@ -7,6 +7,7 @@ import Project_5 from '../../assets/images/Project5.png'
 const Project = () => {
     return(
         <div className="Container_project">
+            <h2 className="Header_p">Projects</h2>
             <a className="Card" 
                  target="_blank"
                  rel='noreferrer'
