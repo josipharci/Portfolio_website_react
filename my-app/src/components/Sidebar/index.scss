@@ -131,4 +131,29 @@ a {
       }
     }
 
-   
+    @media only screen and (max-width: 600px) {
+      .nav-bar {
+        right: 0;
+        width: 50px;
+      }
+    }
+    
+    @media only screen and (min-width: 600px) {
+      .nav-bar {
+        right: 0;
+      
+      }
+    }
+    
+    @media only screen and (min-width: 768px) {
+      .nav-bar {
+        right: 0;
+      }
+    }
+
+    @media only screen and (min-width: 1024px) {
+      .nav-bar {
+        right: 0;
+      }
+    }
+    
