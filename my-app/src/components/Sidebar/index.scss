@@ -130,6 +130,30 @@ a {
         content: "";
       }
     }
+    
+    @media only screen and (max-width: 1024px) {
+      .nav-bar {
+        right: 0;
+        width: 60px;
+        height: 120vh;
+      }
+    }
+
+    @media only screen and (max-width: 768px) {
+      .nav-bar {
+        right: 0;
+        width: 60px;
+        height: 120vh;
+      }
+    }
+
+    @media only screen and (max-width: 425px) {
+      .nav-bar {
+        right: 0;
+        width: 60px;
+        height: 102vh;
+      }
+    }
 
     @media only screen and (max-width: 375px) {
       .nav-bar {
@@ -141,7 +165,7 @@ a {
     
     
     
-    @media only screen and (max-width: 425) {
+    @media only screen and (max-width: 320px) {
       .nav-bar {
         right: 0;
         width: 50px;
