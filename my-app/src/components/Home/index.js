@@ -5,6 +5,7 @@ import Logo from '../../assets/images/logo-sub.png';
 const Home = () => {
     return (
       <div className="Container">
+        <p>The site is under development</p>
         <div className="Content_left">
           <h2 className="Heading">Hi, <br/>My name is Josip Harci. <br/>I am 23 years old. <br/>I come from Osijek.<br/>I am a Front-end developer.</h2>
           <p className="Text">HTML - CSS(LESS/SASS) - JavaScript - React</p>
